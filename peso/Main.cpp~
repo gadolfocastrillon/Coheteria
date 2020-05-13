@@ -1,0 +1,15 @@
+#include <iostream>
+#include "peso.h"
+
+using namespace std; 
+
+int main()
+{
+  peso a(5e3,9e3,1,0.2,0.5,0.1);
+  a.procedimiento();
+
+  
+
+
+
+}

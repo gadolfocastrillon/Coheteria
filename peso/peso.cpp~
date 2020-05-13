@@ -1,0 +1,16 @@
+#include <iostream>
+#include "peso.h"
+
+using namespace std; 
+
+int main()
+{
+  peso a(6378.14,6500,1,0.2,0.5,0.1);
+  a.procedimiento();
+
+  //cout<<"El peso en direccion del radio es:"<<a.peso_en_radio(6378.14,0.2)<<endl;
+  //cout<<"El peso en direccion de la longitud es:"<<a.peso_en_longitud(6378.14,0.2)<<endl;
+
+
+
+}

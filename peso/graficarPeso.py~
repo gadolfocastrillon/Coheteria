@@ -1,0 +1,10 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+r,wr,wphi=np.loadtxt('Valores_Peso.txt',unpack=True)
+
+plt.figure()
+plt.plot(r,wr)
+plt.plot(r,wphi)
+plt.grid()
+plt.show()
